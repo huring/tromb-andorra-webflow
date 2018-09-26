@@ -1,0 +1,286 @@
+a {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 95vh;
+  padding: 16px;
+  background-image: -webkit-linear-gradient(110deg, rgba(15, 3, 100, .54), rgba(255, 129, 235, .93)), url('../images/Andorra-header.jpg');
+  background-image: linear-gradient(340deg, rgba(15, 3, 100, .54), rgba(255, 129, 235, .93)), url('../images/Andorra-header.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+}
+
+.hero.skiing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  padding: 0px;
+  background-image: none;
+}
+
+.header {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.branding {
+  display: inline-block;
+  background-image: url('../images/white.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  border-top: 2px solid rgba(0, 0, 0, .08);
+}
+
+.hero-content {
+  padding: 16px;
+}
+
+.hero-third {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.hero-third.skiing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(86, 177, 206, .54), rgba(9, 51, 80, .84) 100%, rgba(8, 64, 102, .84)), url('../images/Andorra-header.jpg');
+  background-image: linear-gradient(180deg, rgba(86, 177, 206, .54), rgba(9, 51, 80, .84) 100%, rgba(8, 64, 102, .84)), url('../images/Andorra-header.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.hero-third.eating {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(255, 216, 8, .86), rgba(255, 163, 0, .78) 100%, #fff 101%), url('../images/andorra-cuisine.jpg');
+  background-image: linear-gradient(180deg, rgba(255, 216, 8, .86), rgba(255, 163, 0, .78) 100%, #fff 101%), url('../images/andorra-cuisine.jpg');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.hero-third.shopping {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(248, 23, 23, .74), rgba(155, 20, 20, .73) 100%, #fff 101%), url('../images/go-shopping-in-andorra.jpg');
+  background-image: linear-gradient(180deg, rgba(248, 23, 23, .74), rgba(155, 20, 20, .73) 100%, #fff 101%), url('../images/go-shopping-in-andorra.jpg');
+  background-position: 0px 0px, 0px 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.heading-2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: 'Great Vibes', cursive;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.text-block {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-2 {
+  text-decoration: none;
+}
+
+.page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text {
+  width: 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image {
+  width: 50%;
+}
+
+.paragraph {
+  display: block;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #5f5f5f;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.image-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.button {
+  display: block;
+  width: 250px;
+  margin-top: 66px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 40px;
+  border: 3px solid #0c9eff;
+  border-radius: 25px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #0c9eff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.div-block {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.image-3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 24px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .hero.skiing {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .page-content {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero.skiing {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .page-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+  }
+  .paragraph {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .heading-3 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
